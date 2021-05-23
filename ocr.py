@@ -13,7 +13,7 @@ if file is None:
 	st.write('No file uploaded')
 else:
 	convert_img=Image.open(file).convert('RGB')
-	st.header('Uploded Image')
+	st.header('Uploaded Image')
 	st.image(convert_img,width=400)
 	custom_config = r'--oem 3 --psm 6'
 	if st.button('Perform OCR'):
