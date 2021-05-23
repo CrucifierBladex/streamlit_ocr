@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 import streamlit as st
 from PIL import Image
-st.image('cover.png')
+st.image('cover.png',width=400)
 st.title('OCR APP')
 st.subheader('Developed by Adil')
 st.write('This app is under Development')
